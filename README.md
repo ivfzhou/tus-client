@@ -15,7 +15,7 @@ Tus v1.0.0 协议 Go 客户端实现，参考自：[tus resumable upload protoco
 # 三、快速开始
 
 ```shell
-go get gitee.com/ivfzhou/tus_client/v2@latest
+go get gitee.com/ivfzhou/tus-client/v2@latest
 ```
 
 ```golang
@@ -24,7 +24,8 @@ package main
 import (
     "context"
     "fmt"
-    tus "gitee.com/ivfzhou/tus_client/v2"
+
+    tus "gitee.com/ivfzhou/tus-client/v2"
 )
 
 func main() {
